@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Baloo Bhai';
+  background-image: url(https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: blue;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.digital{
+    color: white ;
+    font-size: 40px;
+    text-shadow: 3px 1px black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    align-items: center;
+    display: flex;
+    /* flex-direction: column; */
+
+}
+
+.clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    opacity: 0.8;
+
+}
+
+.minutes {
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 58, 2);
+    font-size: 40px;
+}
+
+.hour {
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 58, 2);
+    font-size: 40px;
+}
+
+.sec {
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 58, 2);
+    font-size: 40px;
+}
+
+.text{
+    width:100px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 2px black;
+    text-transform: uppercase;
+}
+
+.ampm{
+    position: absolute;
+    right: -120px;
+    width:100px;
+    height: 30px;
+    bottom: 20px;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    opacity: 0.8;
+    text-shadow: 3px 2px black;
+}
